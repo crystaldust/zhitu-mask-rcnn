@@ -3,6 +3,10 @@ __pycache__
 .idea
 sample_identity_block.png
 rpn_model.png
+head_classifier_and_bbox.png
+head_mask_graph.png
 executed/
 instance_segmentation_with_mask_rcnn.ipynb
 instance_segmentation_with_mask_rcnn.pdf
+data/
+logs/
