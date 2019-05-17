@@ -11,9 +11,14 @@ import os
 
 ############################## exec notebooks
 notebooks = [
-    '01_mask_rcnn_overview{}.ipynb',
-    '02_feature_maps{}.ipynb',
-    '03_backbone_network{}.ipynb'
+	'01_mask_rcnn_overview{}.ipynb',
+	'02_feature_maps{}.ipynb',
+	'03_backbone_network{}.ipynb',
+	'04_RPN{}.ipynb',
+	'05_roi_align{}.ipynb',
+	'06_head_network{}.ipynb',
+	'07_coco_dataset{}.ipynb',
+	'08_train_models{}.ipynb'
 ]
 
 COLOR_START = '\033[92m'
@@ -49,8 +54,13 @@ for notebook in notebooks:
 ############################## merge note books
 notebooks_to_merge = [
     '01_mask_rcnn_overview{}.ipynb',
-    '02_feature_maps{}.ipynb',
-    '03_backbone_network{}.ipynb'
+	'02_feature_maps{}.ipynb',
+	'03_backbone_network{}.ipynb',
+	'04_RPN{}.ipynb',
+	'05_roi_align{}.ipynb',
+	'06_head_network{}.ipynb',
+	'07_coco_dataset{}.ipynb',
+	'08_train_models{}.ipynb'
 ]
 executed_notebooks = [executed_folder + nb.format('.executed') for nb in notebooks_to_merge]
 output_file = 'instance_segmentation_with_mask_rcnn.ipynb'
