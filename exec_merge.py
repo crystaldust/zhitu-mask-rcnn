@@ -11,6 +11,8 @@ import os
 
 ############################## exec notebooks
 notebooks = [
+	'intro{}.ipynb',
+	'00_prepare_env_on_modelarts.ipynb',
 	'01_mask_rcnn_overview{}.ipynb',
 	'02_feature_maps{}.ipynb',
 	'03_backbone_network{}.ipynb',
@@ -53,6 +55,8 @@ for notebook in notebooks:
 
 ############################## merge note books
 notebooks_to_merge = [
+	'intro{}.ipynb',
+	'00_prepare_env_on_modelarts.ipynb',
     '01_mask_rcnn_overview{}.ipynb',
 	'02_feature_maps{}.ipynb',
 	'03_backbone_network{}.ipynb',
